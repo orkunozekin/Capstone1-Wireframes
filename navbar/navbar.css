@@ -1,0 +1,60 @@
+.navbar {
+    display: flex;
+    border: solid 2px black;
+    width: 100%;
+    justify-content: center;
+    height: 50px;
+    background-color: #698996;
+    color: #fffbdb;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.navbar a {
+    display: none;
+}
+
+i{ 
+    font-family: 'FontAwesome';
+    margin-top: 3px;
+    margin-left: 40%;
+}
+
+
+.title-icon {
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+    align-items: center;
+ }
+
+ @media screen and (min-width: 1024px) {
+    .navbar-links {
+        display: flex;
+        width: 90%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .navbar a {
+        display: flex;
+        font-size: larger;
+        text-decoration: none;
+        color: #fffbdb;
+    }
+
+    i {
+        display: none
+    }
+.title-icon {
+    justify-content: flex-start;
+ }
+
+ .navbar-links {
+     font-size: larger;
+ }
