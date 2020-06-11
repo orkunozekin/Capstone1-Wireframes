@@ -33,6 +33,11 @@ i{
     align-items: center;
  }
 
+
+ h2 {
+    margin-bottom: 18px;
+}
+
  @media screen and (min-width: 1024px) {
     .navbar-links {
         display: flex;
@@ -57,4 +62,12 @@ i{
 
  .navbar-links {
      font-size: larger;
+ }
+
+ h2 {
+    margin-left: 200px;
+    font-size: 30px;
+    margin-bottom: 4%;
+}
+
  }
