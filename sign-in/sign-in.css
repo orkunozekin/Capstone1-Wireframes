@@ -27,8 +27,12 @@ button {
     margin-bottom: 20px;
 }
 
-a {
+.forgot-password {
     margin-top: -19px;
     margin-bottom: 20px;
     font-size: 10px;
+}
+
+.create-acc {
+    font-size: 15px;
 }
