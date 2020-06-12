@@ -205,6 +205,15 @@ h4 {
     font-size: larger;
 }
 
+.chord-result {
+    margin-top: 70px;
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: 100px;
+}
+
 @media screen and (min-width: 1024px) {
     .navbar-links {
         display: flex;
