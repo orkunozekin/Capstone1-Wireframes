@@ -1,0 +1,25 @@
+
+.sign-up-wrapper {
+    display: block
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+form input {
+    max-width: 50%;
+    margin-bottom: 20px;
+}
+
+button {
+    margin-left: 40%;
+    margin-top: 30px;
+    max-width: 40%;
+}
