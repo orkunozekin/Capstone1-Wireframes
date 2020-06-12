@@ -257,7 +257,9 @@ img {
     float: none;
 }
 
-
+.chord-result {
+    margin-top: 10px;
+}
 
 
 }
