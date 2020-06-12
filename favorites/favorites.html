@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="favorites.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Favorites</title>
 </head>
+
 <body>
-    
+    <nav class="navbar">
+        <div class="title-icon">
+            <h2>Atlas Chords</h2>
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="navbar-links">
+            <a href="#">Sign in</a>
+            <a href="#">Favorites</a>
+            <a href="#">Guitar Chords Selector</a>
+        </div>
+    </nav>
+    <h3>My Favorite Guitar Chords</h3>
+    <div class="fav-chords">
+        <div id="c-major">
+            <button type="button" title="remove">x</button>
+            <h4>C Major</h4>
+            <img src="https://www.chorder.com/images/guitar-fingering/chords/c.jpg" alt="c-major">
+           
+        </div>
+        <div id="d-minor">
+            <button class="remove" title="remove" type="button">x</button>
+            <h4>D Minor</h4>
+            <img src="https://www.chorder.com/images/guitar-fingering/chords/dm.jpg" alt="d-minor">
+        </div>
+    </div>
 </body>
+
 </html>
